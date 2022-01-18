@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Today(props) {
+function Today({ london }) {
+
     return (
         <div>
-            Hello from today!
+            {london.current.temp_f}
         </div>
     );
 }
